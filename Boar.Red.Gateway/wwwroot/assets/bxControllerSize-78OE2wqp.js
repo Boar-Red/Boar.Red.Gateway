@@ -1,0 +1,1 @@
+var t;(n=>{(s=>{(m=>{(a=>{a[a.Normal=0]="Normal",a[a.Large=1]="Large",a[a.Small=2]="Small",a[a.FitContent=3]="FitContent"})(m.BxControllerSize||(m.BxControllerSize={}))})(s.Constants||(s.Constants={}))})(n.BxWebUi||(n.BxWebUi={}))})(t||(t={}));const b=t.BxWebUi.Constants.BxControllerSize;export{b as B};

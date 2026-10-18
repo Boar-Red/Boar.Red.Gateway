@@ -1,0 +1,1 @@
+import{d as n,o,h as s}from"./index-BCBCo45n.js";const r=["innerHTML"],m=n({__name:"bx-html",props:{html:{}},setup(e){const t=e;return(c,l)=>(o(),s("div",{class:"bx-html",innerHTML:t.html},null,8,r))}});export{m as default};

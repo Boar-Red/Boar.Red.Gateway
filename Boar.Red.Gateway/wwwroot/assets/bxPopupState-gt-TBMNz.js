@@ -1,0 +1,1 @@
+var n;(h=>{(w=>{(i=>{i[i.BeHide=0]="BeHide",i[i.WillShow=1]="WillShow",i[i.InShowing=2]="InShowing",i[i.BeShow=3]="BeShow",i[i.InHiding=4]="InHiding"})(w.BxPopupState||(w.BxPopupState={}))})(h.BxWebUi||(h.BxWebUi={}))})(n||(n={}));const d=n.BxWebUi.BxPopupState;export{d as B};

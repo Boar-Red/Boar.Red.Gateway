@@ -1,0 +1,1 @@
+var o;(t=>{(h=>{(e=>{e[e.Not=0]="Not",e[e.Placeholder=1]="Placeholder",e[e.PlaceholderLight=2]="PlaceholderLight"})(h.BxBlankPlaceholderType||(h.BxBlankPlaceholderType={}))})(t.BxWebUi||(t.BxWebUi={}))})(o||(o={}));const l=o.BxWebUi.BxBlankPlaceholderType;export{l as B};

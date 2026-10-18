@@ -1,0 +1,1 @@
+import{a4 as n}from"./index-BCBCo45n.js";var e;(s=>{(a=>{class o extends n{pageIndex=0;pageSize=0;allPagesCount=0;allPageElementsCount=0;pageElements=null}a.ListPageResponse=o})(s.ViewModels||(s.ViewModels={}))})(e||(e={}));const p=e.ViewModels.ListPageResponse;export{p as L};

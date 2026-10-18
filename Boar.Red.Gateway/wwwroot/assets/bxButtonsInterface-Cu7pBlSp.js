@@ -1,0 +1,1 @@
+var t;(n=>{(r=>{class e{static Name="BxButtons";static Instance=new e;getControllerSize(){}getBlankPlaceholderType(){}getIsMouseStateUiDisable(){}getIsDisable(){}registerButton(l,s,a){return null}getSelectedValue(){return null}setSelectedValue(l,s,a,o){return!1}}r.BxButtonsInterface=e})(n.BxWebUi||(n.BxWebUi={}))})(t||(t={}));const u=t.BxWebUi.BxButtonsInterface;export{u as B};

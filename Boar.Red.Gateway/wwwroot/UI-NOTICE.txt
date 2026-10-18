@@ -1,0 +1,4 @@
+The Boar.Red management UI is proprietary; its source is not public.
+The repository's MIT License does not cover the proprietary management UI assets.
+Third-party components retain their own licenses. See the repository's UI-LICENSE.md:
+https://github.com/Boar-Red/Boar.Red.Gateway/blob/HEAD/UI-LICENSE.md

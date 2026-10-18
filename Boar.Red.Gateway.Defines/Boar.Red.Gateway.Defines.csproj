@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>10.0.0</Version>
+    <FileVersion>10.0.0</FileVersion>
+    <AssemblyVersion>10.0.0</AssemblyVersion>
+    <Copyright>Boar.Red</Copyright>
+    <Company>Boar.Red</Company>
+    <Authors>Boar.Red</Authors>
+    <Title>Boar.Red.Gateway.Defines</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIcon>Boar_Red_600x600@1x.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Boar-Red/Boar.Red.Gateway</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Boar-Red/Boar.Red.Gateway</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Boar.Red 网关服务端与客户端共享的协议、常量和视图模型。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Boar.Red.Service\Boar.Red.Service\Boar.Red.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Boar_Red_600x600%401x.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

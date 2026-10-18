@@ -1,0 +1,1 @@
+var o;(r=>{(t=>{(i=>{i[i.Vertical=1]="Vertical",i[i.Horizontal=2]="Horizontal"})(t.BxScrollDirection||(t.BxScrollDirection={}))})(r.BxWebUi||(r.BxWebUi={}))})(o||(o={}));const a=o.BxWebUi.BxScrollDirection;export{a as B};

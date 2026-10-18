@@ -1,0 +1,1 @@
+var l;(c=>{(o=>{(e=>{e[e.Unknow=0]="Unknow",e[e.SelectDefaultByFocus=1]="SelectDefaultByFocus",e[e.SelectAllByFocus=2]="SelectAllByFocus"})(o.BxTextInputFocusSelectType||(o.BxTextInputFocusSelectType={}))})(c.BxWebUi||(c.BxWebUi={}))})(l||(l={}));const B=l.BxWebUi.BxTextInputFocusSelectType;export{B};

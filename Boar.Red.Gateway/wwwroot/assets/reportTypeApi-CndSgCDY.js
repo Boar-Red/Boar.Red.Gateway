@@ -1,0 +1,1 @@
+import{C as o}from"./index-BCBCo45n.js";var e;(p=>{(t=>{class r extends o{apiDirectoryPath="/reportType";saveReportType=this.post("saveReportType");searchReportTypes=this.post("searchReportTypes")}t.ReportTypeApi=r})(p.ReportManagement||(p.ReportManagement={}))})(e||(e={}));const R=e.ReportManagement.ReportTypeApi;export{R};

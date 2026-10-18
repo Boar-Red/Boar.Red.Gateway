@@ -1,0 +1,1 @@
+var h;(c=>{(i=>{(t=>{t[t.Auto=0]="Auto",t[t.Width100Pct=1]="Width100Pct",t[t.Height100Pct=2]="Height100Pct",t[t.WidthAndHeight100Pct=3]="WidthAndHeight100Pct"})(i.BxSizeType||(i.BxSizeType={}))})(c.BxWebUi||(c.BxWebUi={}))})(h||(h={}));const d=h.BxWebUi.BxSizeType;export{d as B};

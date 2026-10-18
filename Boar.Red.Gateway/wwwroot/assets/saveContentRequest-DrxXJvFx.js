@@ -1,0 +1,1 @@
+import{R as r}from"./index-BCBCo45n.js";var e;(t=>{(n=>{(o=>{class s extends r{content;constructor(a){super(),this.content=a}}o.SaveContentRequest=s})(n.ViewModels||(n.ViewModels={}))})(t.ContentManagement||(t.ContentManagement={}))})(e||(e={}));const C=e.ContentManagement.ViewModels.SaveContentRequest;export{C as S};

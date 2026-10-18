@@ -1,0 +1,1 @@
+var a;(l=>{(w=>{(o=>{o[o.NormalRow=0]="NormalRow",o[o.TitleRow=1]="TitleRow",o[o.BlankRow=2]="BlankRow"})(w.BxFormRowType||(w.BxFormRowType={}))})(l.BxWebUi||(l.BxWebUi={}))})(a||(a={}));const R=a.BxWebUi.BxFormRowType;export{R as B};

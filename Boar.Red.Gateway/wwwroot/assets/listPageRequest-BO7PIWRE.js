@@ -1,0 +1,1 @@
+import{R as r}from"./index-BCBCo45n.js";var t;(s=>{(i=>{class e extends r{static PageSizeDefault=20;timeToGetFirstPage;pageIndex;pageSize;constructor(a,g,o){super(),this.timeToGetFirstPage=o,this.pageIndex=a,this.pageSize=g??e.PageSizeDefault}}i.ListPageRequest=e})(s.ViewModels||(s.ViewModels={}))})(t||(t={}));const p=t.ViewModels.ListPageRequest;export{p as L};

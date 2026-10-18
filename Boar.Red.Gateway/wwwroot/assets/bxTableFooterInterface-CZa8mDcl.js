@@ -1,0 +1,1 @@
+var t;(a=>{(r=>{class e{static Name="BxTableFooter";static Instance=new e;getBxTableFieldInfoManager(){return null}getIsSelected(){return null}getIsMouseOver(){return null}}r.BxTableFooterInterface=e})(a.BxWebUi||(a.BxWebUi={}))})(t||(t={}));const n=t.BxWebUi.BxTableFooterInterface;export{n as B};

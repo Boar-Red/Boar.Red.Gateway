@@ -1,0 +1,1 @@
+import{C as r}from"./index-BCBCo45n.js";var e;(t=>{(s=>{class o extends r{apiDirectoryPath="/store";searchStores=this.post("searchStores");getStore=this.post("getStore");saveStore=this.post("saveStore");removeStore=this.post("removeStore")}s.StoreApi=o})(t.BusinessManagement||(t.BusinessManagement={}))})(e||(e={}));const S=e.BusinessManagement.StoreApi;export{S};

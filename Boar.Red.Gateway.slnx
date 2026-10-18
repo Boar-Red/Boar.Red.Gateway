@@ -1,0 +1,46 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Debug_IIS" />
+    <BuildType Name="Debug_Kestrel" />
+    <BuildType Name="Release" />
+    <BuildType Name="Release_IIS" />
+    <BuildType Name="Release_Kestrel" />
+  </Configurations>
+  <Project Path="../Boar.Red.Service/Boar.Red.Service/Boar.Red.Service.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Debug_Kestrel|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+    <BuildType Solution="Release_Kestrel|*" Project="Release" />
+  </Project>
+  <Project Path="Boar.Red.Gateway.Client/Boar.Red.Gateway.Client.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Debug_Kestrel|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+    <BuildType Solution="Release_Kestrel|*" Project="Release" />
+  </Project>
+  <Project Path="Boar.Red.Gateway.Defines/Boar.Red.Gateway.Defines.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Debug_Kestrel|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+    <BuildType Solution="Release_Kestrel|*" Project="Release" />
+  </Project>
+  <Project Path="Boar.Red.Gateway.Test.Endpoint/Boar.Red.Gateway.Test.Endpoint.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Debug_Kestrel|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+    <BuildType Solution="Release_Kestrel|*" Project="Release" />
+  </Project>
+  <Project Path="Boar.Red.Gateway.Test.Utils/Boar.Red.Gateway.Test.Utils.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+  </Project>
+  <Project Path="Boar.Red.Gateway.Test/Boar.Red.Gateway.Test.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+  </Project>
+  <Project Path="Boar.Red.Gateway/Boar.Red.Gateway.csproj">
+    <BuildType Solution="Debug_IIS|*" Project="Debug" />
+    <BuildType Solution="Release_IIS|*" Project="Release" />
+  </Project>
+</Solution>

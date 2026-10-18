@@ -1,0 +1,1 @@
+import{R as i}from"./index-BCBCo45n.js";var e;(t=>{(n=>{(o=>{class s extends i{contentId;contentIds;constructor(d,R){super(),this.contentId=d,this.contentIds=R}}o.RemoveContentWithIdRequest=s})(n.ViewModels||(n.ViewModels={}))})(t.ContentManagement||(t.ContentManagement={}))})(e||(e={}));const m=e.ContentManagement.ViewModels.RemoveContentWithIdRequest;export{m as R};

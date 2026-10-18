@@ -1,0 +1,1 @@
+import{D as n}from"./index-BCBCo45n.js";class s{constructor(){this._timeoutId=void 0,this._timeToRunPlaned=null}get timeToRunPlaned(){return this._timeToRunPlaned}runAfter(t,e,i=null){this.cancel(),this._timeToRunPlaned=n.Now.addSeconds(t),this._timeoutId=setTimeout(()=>{e(i)},1e3*t)}cancel(){this._timeoutId&&(clearTimeout(this._timeoutId),this._timeoutId=void 0)}}export{s as D};

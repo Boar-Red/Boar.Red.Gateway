@@ -1,0 +1,1 @@
+import{L as a}from"./listPageResponse-B7OjEU3r.js";var e;(n=>{(s=>{(t=>{class o extends a{}t.SearchContentResponse=o})(s.ViewModels||(s.ViewModels={}))})(n.ContentManagement||(n.ContentManagement={}))})(e||(e={}));const c=e.ContentManagement.ViewModels.SearchContentResponse;export{c as S};

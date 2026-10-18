@@ -1,0 +1,1 @@
+var l;(r=>{(m=>{(o=>{o[o.Auto=0]="Auto",o[o.None=1]="None",o[o.Normal=11]="Normal",o[o.Large=21]="Large",o[o.Small=31]="Small"})(m.BxPaddingType||(m.BxPaddingType={}))})(r.BxWebUi||(r.BxWebUi={}))})(l||(l={}));const t=l.BxWebUi.BxPaddingType;export{t as B};

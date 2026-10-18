@@ -1,0 +1,1 @@
+var i;(l=>{(T=>{(e=>{e[e.TopTab=0]="TopTab",e[e.BoldTitle=1]="BoldTitle",e[e.BoldTitleWithUnderline=2]="BoldTitleWithUnderline"})(T.BxHorizontalTabButtonStyle||(T.BxHorizontalTabButtonStyle={}))})(l.BxWebUi||(l.BxWebUi={}))})(i||(i={}));const d=i.BxWebUi.BxHorizontalTabButtonStyle;export{d as B};

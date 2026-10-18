@@ -1,0 +1,1 @@
+var l;(r=>{(m=>{(a=>{a[a.Auto=0]="Auto",a[a.Normal=1]="Normal",a[a.Large=2]="Large",a[a.Small=3]="Small",a[a.SmallExtra=4]="SmallExtra"})(m.BxFontType||(m.BxFontType={}))})(r.BxWebUi||(r.BxWebUi={}))})(l||(l={}));const S=l.BxWebUi.BxFontType;export{S as B};

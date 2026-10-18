@@ -1,0 +1,1 @@
+var a;(r=>{(t=>{class e{static Name="BxTableHeader";static Instance=new e;getBxTableFieldInfoManager(){return null}getIsSelected(){return null}getIsMouseOver(){return null}}t.BxTableHeaderInterface=e})(r.BxWebUi||(r.BxWebUi={}))})(a||(a={}));const n=a.BxWebUi.BxTableHeaderInterface;export{n as B};

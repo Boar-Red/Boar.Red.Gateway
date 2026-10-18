@@ -1,0 +1,1 @@
+var o;(e=>{(s=>{(r=>{(t=>{t[t.Auto=0]="Auto",t[t.Transparent=1]="Transparent",t[t.WhiteColor=2]="WhiteColor",t[t.ThemeColor=3]="ThemeColor"})(r.BxBackgroundType||(r.BxBackgroundType={}))})(s.Constants||(s.Constants={}))})(e.BxWebUi||(e.BxWebUi={}))})(o||(o={}));const n=o.BxWebUi.Constants.BxBackgroundType;export{n as B};

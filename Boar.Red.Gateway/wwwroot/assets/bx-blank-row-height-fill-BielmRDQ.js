@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o,h as t}from"./index-BCBCo45n.js";const c={},r={class:"bx-blank-row-height-fill"};function s(a,n){return o(),t("div",r)}const i=e(c,[["render",s],["__scopeId","data-v-40bd0026"]]);export{i as default};

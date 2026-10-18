@@ -1,0 +1,407 @@
+﻿{
+        ////////////////////////////////////////////////
+        // 安全设置，跨域控制，最大内容长度等。
+        ////////////////////////////////////////////////
+
+        // 作为最高管理员，可【无需登录】进行后台操作的IP白名单，支持“*”号，通配符。
+        "AdminIPAddresses":
+        [
+                "localhost",
+                "::1",
+                "127.0.0.1"
+        ],
+
+        // 可进行后台操作的IP白名单，支持“*”号，通配符。
+        "AdministratorIPAddresses":
+        [
+                "localhost",
+                "::1",
+                "127.0.0.1",
+                "124.239.190.140",
+                "124.239.190.132",
+                "124.236.173.162"
+        ],
+
+        // 管理员信息。
+        "Administrators":
+        [
+                {
+                        "Account": "admin",
+                        "password": "admin",
+                        "eMail": "",
+                        "expireTime": "2099-02-27T16:00:00+00:00",
+                        "remark": "",
+                        "isValid": true
+                }
+        ],
+
+        // 会话信息保留时长，单位为：秒。
+        "SessionRetainSeconds": 86400.0,
+        
+        // 会话信息同时存在的最大数：小于等于“0”时，不限制。
+        "SessionsCountMax": 10,
+
+        // 日志文件夹路径，默认为："LogFiles/"。
+        "LogFilesDirectoryPath": null,
+
+        // 日志文件自动存储的时间间隔。
+        "AutoFlushLogBufferIntervalSeconds": 0.5,
+
+        // 每个日志文件的最大长度，单位为：字节。
+        "MaxBytesCountPerLogFile": 2097152,
+
+        // 每次日志文件写入的最多日志条目数。
+        "LogRecordsCountPerFileWrite": 100,
+
+        // 日志文件写入的最长超时，单位为：秒。
+        "TimeoutSecondsToStorageLogRecords": 1,
+
+        // 异常日志需要忽略的关键字。
+        "ExceptionLogIgnoreKeys":
+        [
+                "without completing the close handshake"
+        ],
+
+        // 是否开启Http请求日志。
+        "IsHttpRequestLogEnable": false,
+
+        // Http请求内容格式化器。
+        "HttpRequestLogContentFormatter": "请求时间：RequestTime, 路径：RequestUrl, 请求大小：RequestBodySize, 客户端IP：ClientIP, 客户端端口号：ClientPort, 客户端UA：ClientUserAgent, 响应时间：ResponseTime, 相应大小：ResponseSize, 响应耗时：ResponseDurationSeconds, 响应发送耗时：ResponseSendSeconds, 路由耗时：RouterDurationSeconds, 创建缓存耗时：EndPointDurationSeconds",
+
+        // SMTP服务器地址。
+        "SMTPServerAddress": "smtp.qiye.aliyun.com",
+
+        // SMTP服务器端口。
+        "SMTPServerPort": 25,
+
+        // SMTP服务器是否开启了SSL。
+        "IsSMTPServerSSLEnable": false,
+
+        // SMTP服务器账号。
+        "SMTPServerAccount": "admin@admin.com",
+
+        // SMTP服务器密码。
+        "SMTPServerPassword": "123456",
+
+        // SMTP服务器昵称。
+        "SMTPAuthorName": "Boar.Red.Gateway",
+
+        // Http协议绑定的IP地址。
+        "HttpIPAddress": null,
+
+        // Http协议端口号：
+        "HttpPort": 80,
+
+        // Https协议绑定的IP地址。
+        "HttpsIPAddress": null,
+
+        // Https协议端口号：
+        "HttpsPort": 443,
+
+        // 是否Https为必须，默认为：false。
+        "IsHttpsNecessary": false,
+
+        // Https证书地址，默认为：“CertificateFiles/https.pfx”
+        "HttpsCertificateFilePath": "CertificateFiles/https.pfx",
+
+        // Https证书密码。
+        "HttpCertificatePassword": "1PIM6k26",
+
+        // 请求，可信任的来源域名数组。
+        "Access_Control_Allow_Origins":
+        [
+                "localhost"
+        ],
+
+        // 用于WebSocket的，请求，可信任的来源域名数组，不支持模糊匹配。
+        "Access_Control_Allow_Origins_ForWebSocket":
+        [
+        ],
+
+        // 请求，允许的请求方法字符串，会直接返回给客户端的“OPTION”请求，
+        // 以英文逗号分隔的请求方法名，如：POST,GET。
+        "Access_Control_Allow_Methods": "POST,GET,OPTIONS,DELETE",
+
+        // 请求，允许的HTTP头部参数，会直接返回给客户端的“OPTION”请求。
+        "Access_Control_Allow_Headers": "Accept,Accept-Language,Content-Language,Content-Type,X-Custom-Header,Cookie,User-Agent,Authorization",
+
+        // 请求，是否使用凭证进行实际请求。
+        "Access_Control_Allow_Credentials": true,
+
+        // 请求，内容的最大长度，字节数。
+        "Content_Length_Max": 33554432,
+
+
+        ////////////////////////////////////////////////
+        // 路由性能设置。
+        ////////////////////////////////////////////////
+
+        "WorkerThreadsCountMin": 1000,
+        "WorkerThreadsCountMax": 10000,
+        "IOThreadsMin": 100,
+        "IOThreadsMax": 1000,
+
+        ////////////////////////////////////////////////
+        // 路由中转参数，请求哈希值，有效转发值，压缩方法等。
+        ////////////////////////////////////////////////
+
+        // 计算请求哈希值的，HTTP头部关键字数组。
+        "ClientRequestHttpHeaderHashKeys":
+        [
+                "Method",
+                "Content-Type"
+        ],
+
+        // 转发请求的，HTTP头部关键字数组。
+        "ClientRequestHttpHeaderValidKeys":
+        [
+                "Method",
+                "Cookie",
+                "Content-Type",
+                "User-Agent",
+                "Accept",
+                "Authorization"
+        ],
+
+        // 转发响应的，HTTP头部关键字数组。
+        "ClientResponseHttpHeaderValidKeys":
+        [
+                "Content-Type",
+                "Content-Encoding",
+                "Set-Cookie",
+                "Location"
+        ],
+
+        // 响应压缩算法，可选值为：
+        // none，不压缩；
+        // auto，默认压缩算法，自动识别请求，提供针对性的压缩；
+        // br，强制使用“Br”（Brotli compressed data format）压缩算法；
+        // gzip，强制使用“GZip”压缩算法；
+        // deflate，强制使用“Deflate”压缩算法。
+        "ClientResponseCompressionMethod": "auto",
+
+        /// 相应压缩支持的内容类型数组，如：
+        /// application/json，text/plain，text/html。
+        "ClientResponseCompressionContentTypes":
+        [
+                "text/plain",
+                "text/html",
+                "application/json"
+        ],
+
+        /// 响应压缩支持的内容的最小长度（比特），如：1024（1KB），102400（100KB），262144（256KB），524288（512KB），1048576（1MB）。
+        "ClientResponseCompressionContentMinLength": 262144,
+
+        // 每秒最大请求数，0为不限制。
+        "EndPointRPSMax": 0,
+
+        // 路由统计信息保留时长，单位为：秒，默认为： 3600 秒（1小时）。
+        "RouteStatisticsInfoRetainSeconds": 1.0,
+
+        // 响应时长排行榜，要排除的Url关键字数组。
+        "ResponseDurationRankListLength": 1000,
+
+        // 由响应时长降序排序的路由统计信息数量，默认为：1000 个。
+        "ResponseDurationRankListExceptedUrlKeys":
+        [
+        ],
+
+        // 响应时长最大值，超出该值时，会通知管理者，设置为“0”时，永远不会触发通知。
+        "ResponseDurationMillisecondsMaxToWarningManager": 3000,
+
+        // 响应时长超出最大值时，向管理员发出消息的标题。
+        "ResponseDurationMaxToWarningManagerMessageTitle": "一些接口的响应时长超出了最大值",
+
+        // 响应时长超出最大值时，向管理员发出消息的内容格式器，最大时长的关键字为：#最大响应时间#，超时的链接关键字为：#超时请求Urls#。
+        "ResponseDurationMaxToWarningManagerMessageFormatter": "以下请求的响应时间超过了“#最大响应时间#”：\r\n#超时请求Urls#\r\n消息结束。",
+
+        // 路由统计信息峰值定义，单位为：RPS，默认为：0，即未定义。
+        "RouteStatisticsInfoRPSPeakDefinition": 3000,
+
+        ////////////////////////////////////////////////
+        ////////////////////////////////////////////////
+        ////////////////////////////////////////////////
+
+
+
+        ////////////////////////////////////////////////
+        // "路由缓存相关设置": null,
+        ////////////////////////////////////////////////
+
+
+        /// 路由请求的，最长超时秒数，单个规则的超时不会超出该值。
+        "EndPointRequestTimeoutSecondsMax": 60.0,
+
+        // 终点异常比例观察时长，单位为：秒。
+        "EndPointExceptionRateWatchingSeconds": 2.0,
+
+        // 终点异常比例观察最小请求数。
+        "EndPointExceptionRateWatchingRequestsCountMin": 0,
+
+        // 终点最大异常比例。
+        "EndPointExceptionRateMax": 0.8,
+
+        // 终点异常后，重试的间隔秒数。
+        "EndPointExceptionRetryIntervalSeconds": 0.0,
+
+        /// 响应缓存有效的Http状态码。
+        "EndPointResponseCacheValidHttpStatusCodes":
+        [
+                // 2开头 （请求成功）表示成功处理了请求的状态代码。
+                200,
+                201,
+                202,
+                203,
+                204,
+                205,
+                206,
+                // 3开头 （请求被重定向）表示要完成请求，需要进一步操作。 通常，这些状态代码用来重定向。
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                307,
+                // 4开头 （请求错误）这些状态代码表示请求可能出错，妨碍了服务器的处理。
+                400,
+                401,
+                403,
+                404,
+                405,
+                406,
+                407,
+                408,
+                409,
+                410,
+                411,
+                412,
+                413,
+                414,
+                415,
+                416,
+                417
+        ],
+
+        /// 路由缓存，异步缓存间隔秒数的最小值。
+        "ClientResponseCacheAsyncCacheIntervalSeconds": 1,
+
+        /// 路由缓存，自动更新间隔秒数。
+        "ClientResponseCacheAutoUpdateIntervalSeconds": 60,
+
+        /// 路由缓存，自动更新使用的线程数。
+        "ClientResponseCacheAutoUpdateThreadsCount": 20,
+
+        /// 路由缓存，自动释放缓存的，未访问秒数。
+        "ClientResponseCacheNoneReadSecondsToRelease": 3600,
+
+        /// 路由缓存，自动持久化间隔秒数。
+        "ClientResponseCacheAutoStorageIntervalSeconds": 1,
+
+        /// 路由缓存，自动存储时每次存储的缓存数量。
+        "ClientResponseCachesCountToAutoStorage": 1000,
+
+        /// 路由缓存，自动清除持久化存储的，未访问秒数。
+        "ClientResponseCacheNoneReadSecondsToReleaseStorage": 604800,
+
+        /// 路由缓存，自动清除持久化存储时，每次清除的个数。
+        "ClientResponseCachesCountToReleaseStorage": 1000,
+
+
+        // 路由规则：
+        "RouteRules":
+        [
+                ////////////////////////////////////////////////
+                // 压力测试：
+                ////////////////////////////////////////////////
+                {
+                        "OrderIndex": 0,
+                        "Name": "Stress_Test",
+
+                        "ClientResponseCacheModeName": "NoneCache",
+                        "ClientResponseCacheUpdateIntervalSeconds": 0,
+                        "IsSoleEndPointForcedEnable": false,
+                        "EndPointRequestTimeoutSeconds": 0.0,
+                        "EndPointResponseExceptionProcessName": "ReturnExceptionInfo",
+
+                        "ClientRequestPaths":
+                        [
+                                "@Stress_Test/*"
+                        ],
+                        "ClientRequestPathFormat": null,
+
+                        "EndPointRoutePolicyName": "MasterSlave",
+                        "EndPoints":
+                        [
+                                {
+                                        // 可选：
+                                        "Name": "Node_1",
+                                        "PathTemplate": "http://localhost:5009/#Path#",
+                                        "DefaultRouteRate": 1.0,
+                                        "RouteRateControllInfes":
+                                        [
+                                                {
+                                                        "DurationSeconds": 3.0,
+                                                        "RouteRate": 0.1
+                                                },
+                                                {
+                                                        "DurationSeconds": 5.0,
+                                                        "RouteRate": 0.0
+                                                },
+                                                {
+                                                        "DurationSeconds": 3.0,
+                                                        "RouteRate": 0.1
+                                                },
+                                                {
+                                                        "DurationSeconds": 5.0,
+                                                        "RouteRate": 0.0
+                                                }
+                                        ],
+                                        //
+                                        "RPSMax": 0,
+                                        //
+                                        "ExceptionRateWatchingSeconds": 3.0,
+                                        "ExceptionRateWatchingRequestsCountMin": 100,
+                                        "ExceptionRateMax": 0.8,
+                                        "ExceptionRetryIntervalSeconds": 60.0,
+                                        //
+                                        "IsDisable": false
+                                },
+                                {
+                                        // 可选：
+                                        "Name": "Node_2",
+                                        "PathTemplate": "http://localhost:5009/#Path#",
+                                        "DefaultRouteRate": 1.0,
+                                        "RouteRateControllInfes":
+                                        [
+                                                {
+                                                        "DurationSeconds": 3.0,
+                                                        "RouteRate": 0.1
+                                                },
+                                                {
+                                                        "DurationSeconds": 3.0,
+                                                        "RouteRate": 0.0
+                                                },
+                                                {
+                                                        "DurationSeconds": 3.0,
+                                                        "RouteRate": 0.1
+                                                },
+                                                {
+                                                        "DurationSeconds": 3.0,
+                                                        "RouteRate": 0.0
+                                                }
+                                        ],
+                                        //
+                                        "RPSMax": 0,
+                                        //
+                                        "ExceptionRateWatchingSeconds": 3.0,
+                                        "ExceptionRateWatchingRequestsCountMin": 100,
+                                        "ExceptionRateMax": 0.8,
+                                        "ExceptionRetryIntervalSeconds": 60.0,
+                                        //
+                                        "IsDisable": false
+                                }
+                        ]
+                }
+        ]
+}

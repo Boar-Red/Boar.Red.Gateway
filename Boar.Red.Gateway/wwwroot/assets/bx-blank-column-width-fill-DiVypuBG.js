@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as e,h as t}from"./index-BCBCo45n.js";const c={},n={class:"bx-blank-column-width-fill"};function s(a,l){return e(),t("div",n)}const d=o(c,[["render",s],["__scopeId","data-v-e54fd673"]]);export{d as default};

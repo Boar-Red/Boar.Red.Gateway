@@ -1,0 +1,1 @@
+var e;(i=>{class s{static isMouseEventTriggerBySystemsSimulation(t){return t.sourceCapabilities?.firesTouchEvents===!0}static getFirstTouchFromEvent(t){return t&&t.changedTouches&&t.changedTouches.length>0?t.changedTouches[0]:null}static getTextFromTextInputEvent(t){return t?t.detail?.value??null:null}}i.H5Util=s})(e||(e={}));const u=e.H5Util;export{u as H};

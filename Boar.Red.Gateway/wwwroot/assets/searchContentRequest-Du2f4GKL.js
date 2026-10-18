@@ -1,0 +1,1 @@
+import{L as u}from"./listPageRequest-BO7PIWRE.js";var e;(t=>{(s=>{(n=>{class a extends u{searchKey;constructor(o,r,c,h){super(r,c,h),this.searchKey=o}}n.SearchContentRequest=a})(s.ViewModels||(s.ViewModels={}))})(t.ContentManagement||(t.ContentManagement={}))})(e||(e={}));const q=e.ContentManagement.ViewModels.SearchContentRequest;export{q as S};

@@ -1,0 +1,1 @@
+var d;(o=>{(U=>{(n=>{n[n.Unknown=0]="Unknown",n[n.Uploading=1]="Uploading",n[n.UploadSuccessed=2]="UploadSuccessed",n[n.UploadFailed=3]="UploadFailed"})(U.BxFileUploadState||(U.BxFileUploadState={}))})(o.BxWebUi||(o.BxWebUi={}))})(d||(d={}));const s=d.BxWebUi.BxFileUploadState;export{s as B};

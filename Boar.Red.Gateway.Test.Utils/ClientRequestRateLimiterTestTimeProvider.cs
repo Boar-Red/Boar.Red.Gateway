@@ -1,0 +1,58 @@
+using System;
+
+namespace Boar.Red.Gateway.Test.Utils;
+
+internal class ClientRequestRateLimiterTestTimeProvider : TimeProvider
+{
+	////////////////////////////////////////////////
+	// @自身属性
+	////////////////////////////////////////////////
+
+	#region 自身属性
+
+	DateTimeOffset _utcNow;
+
+	#endregion
+
+
+	////////////////////////////////////////////////
+	// @构造方法
+	////////////////////////////////////////////////
+
+	#region 构造方法
+
+	public ClientRequestRateLimiterTestTimeProvider(DateTimeOffset utcNow)
+	{
+		_utcNow = utcNow;
+	}
+
+	#endregion
+
+
+	////////////////////////////////////////////////
+	// @自身实现
+	////////////////////////////////////////////////
+
+	#region 自身实现
+
+	public void Advance(TimeSpan timeSpan)
+	{
+		_utcNow = _utcNow.Add(timeSpan);
+	}
+
+	#endregion
+
+
+	////////////////////////////////////////////////
+	// @重载
+	////////////////////////////////////////////////
+
+	#region 重载
+
+	public override DateTimeOffset GetUtcNow()
+	{
+		return _utcNow;
+	}
+
+	#endregion
+}

@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o,h as c}from"./index-BCBCo45n.js";const r={},t={class:"bx-virtual-keyboard-placeholder"};function a(s,_){return o(),c("div",t)}const l=e(r,[["render",a],["__scopeId","data-v-5fcd8033"]]);export{l as default};

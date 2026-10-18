@@ -1,0 +1,1 @@
+import{_ as c}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as e,h as o}from"./index-BCBCo45n.js";const r={},t={class:"bx-br"};function s(a,_){return e(),o("div",t)}const f=c(r,[["render",s],["__scopeId","data-v-d36a00ca"]]);export{f as default};

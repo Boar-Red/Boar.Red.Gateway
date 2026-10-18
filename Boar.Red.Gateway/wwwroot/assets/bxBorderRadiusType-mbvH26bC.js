@@ -1,0 +1,1 @@
+var m;(t=>{(a=>{(l=>{l[l.None=0]="None",l[l.Auto=1]="Auto",l[l.Normal=16]="Normal",l[l.Large=24]="Large",l[l.Small=8]="Small",l[l.SmallExtra=4]="SmallExtra"})(a.BxBorderRadiusType||(a.BxBorderRadiusType={}))})(t.BxWebUi||(t.BxWebUi={}))})(m||(m={}));const N=m.BxWebUi.BxBorderRadiusType;export{N as B};

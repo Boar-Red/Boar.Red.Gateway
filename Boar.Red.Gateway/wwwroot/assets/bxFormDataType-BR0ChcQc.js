@@ -1,0 +1,1 @@
+var i;(b=>{(U=>{(n=>{n[n.Unknown=0]="Unknown",n[n.Bool=1]="Bool",n[n.Number=2]="Number",n[n.String=3]="String",n[n.DateTime=4]="DateTime",n[n.Array=5]="Array"})(U.BxFormDataType||(U.BxFormDataType={}))})(b.BxWebUi||(b.BxWebUi={}))})(i||(i={}));const r=i.BxWebUi.BxFormDataType;export{r as B};

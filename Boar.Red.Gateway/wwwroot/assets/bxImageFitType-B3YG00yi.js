@@ -1,0 +1,1 @@
+var o;(l=>{(r=>{(n=>{n[n.Fill=0]="Fill",n[n.Contain=1]="Contain",n[n.Cover=2]="Cover",n[n.Center=3]="Center",n[n.ScaleDown=4]="ScaleDown"})(r.BxImageFitType||(r.BxImageFitType={}))})(l.BxWebUi||(l.BxWebUi={}))})(o||(o={}));const C=o.BxWebUi.BxImageFitType;export{C as B};

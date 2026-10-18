@@ -1,0 +1,1 @@
+var t;(r=>{(i=>{(e=>{e[e.Left=1]="Left",e[e.Center=2]="Center",e[e.Right=3]="Right"})(i.BxTextAlignType||(i.BxTextAlignType={}))})(r.BxWebUi||(r.BxWebUi={}))})(t||(t={}));const a=t.BxWebUi.BxTextAlignType;export{a as B};

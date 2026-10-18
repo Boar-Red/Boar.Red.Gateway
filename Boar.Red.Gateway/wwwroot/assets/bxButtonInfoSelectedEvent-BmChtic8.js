@@ -1,0 +1,1 @@
+import{B as s}from"./bxEvent-Do1OmL19.js";var e;(t=>{(n=>{class o extends s{groupName;buttonInfoSelected;constructor(B,u,l,c=null){super(B,c),this.groupName=u??null,this.buttonInfoSelected=l}}n.BxButtonInfoSelectedEvent=o})(t.BxWebUi||(t.BxWebUi={}))})(e||(e={}));const d=e.BxWebUi.BxButtonInfoSelectedEvent;export{d as B};

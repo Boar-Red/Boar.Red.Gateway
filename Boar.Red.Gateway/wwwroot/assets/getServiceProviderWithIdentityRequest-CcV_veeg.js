@@ -1,0 +1,1 @@
+import{G as n}from"./getContentWithIdentityRequest-CM6nb-K0.js";var e;(t=>{(i=>{(s=>{class r extends n{}s.GetServiceProviderWithIdentityRequest=r})(i.ViewModels||(i.ViewModels={}))})(t.BusinessManagement||(t.BusinessManagement={}))})(e||(e={}));const v=e.BusinessManagement.ViewModels.GetServiceProviderWithIdentityRequest;export{v as G};

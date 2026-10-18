@@ -1,0 +1,1 @@
+var s;(n=>{(i=>{(c=>{(a=>{a[a.Auto=0]="Auto",a[a.Black=1]="Black",a[a.Secondary=2]="Secondary",a[a.White=3]="White",a[a.Red=4]="Red",a[a.Theme=5]="Theme",a[a.Disable=6]="Disable"})(c.BxTextColorType||(c.BxTextColorType={}))})(i.Constants||(i.Constants={}))})(n.BxWebUi||(n.BxWebUi={}))})(s||(s={}));const b=s.BxWebUi.Constants.BxTextColorType;export{b as B};

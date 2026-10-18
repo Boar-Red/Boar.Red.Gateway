@@ -1,0 +1,1 @@
+var o;(a=>{(W=>{(r=>{r[r.Normal=1]="Normal",r[r.NormalWithColorMarker=2]="NormalWithColorMarker",r[r.Large=3]="Large",r[r.LargeWithColorMarker=4]="LargeWithColorMarker"})(W.BxTitleBarType||(W.BxTitleBarType={}))})(a.BxWebUi||(a.BxWebUi={}))})(o||(o={}));const e=o.BxWebUi.BxTitleBarType;export{e as B};

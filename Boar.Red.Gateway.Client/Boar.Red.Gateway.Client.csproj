@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Boar.Red.Gateway.Client</Title>
+    <Version>10.0.0</Version>
+    <AssemblyVersion>10.0.0</AssemblyVersion>
+    <FileVersion>10.0.0</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Boar_Red_600x600@1x.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>Boar.Red</Authors>
+    <Company>Boar.Red</Company>
+    <Copyright>版权所有 © 2026 Boar.Red</Copyright>
+    <Description>Boar.Red 微服务，网关系统客户端。</Description>
+    <PackageProjectUrl>https://github.com/Boar-Red/Boar.Red.Gateway</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Boar-Red/Boar.Red.Gateway</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Boar.Red;微服务;网关</PackageTags>
+    <PackageReleaseNotes>Boar.Red 微服务框架，网关。</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Boar.Red.Service\Boar.Red.Service\Boar.Red.Service.csproj" />
+    <ProjectReference Include="..\Boar.Red.Gateway.Defines\Boar.Red.Gateway.Defines.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Boar_Red_600x600%401x.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Constants\" />
+  </ItemGroup>
+
+</Project>

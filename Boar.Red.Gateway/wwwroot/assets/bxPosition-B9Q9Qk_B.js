@@ -1,0 +1,1 @@
+var t;(r=>{(U=>{(e=>{e[e.Unknow=0]="Unknow",e[e.Left=1]="Left",e[e.Right=2]="Right",e[e.Center=3]="Center",e[e.Top=4]="Top",e[e.Bottom=5]="Bottom"})(U.BxPosition||(U.BxPosition={}))})(r.BxWebUi||(r.BxWebUi={}))})(t||(t={}));const p=t.BxWebUi.BxPosition;export{p as B};

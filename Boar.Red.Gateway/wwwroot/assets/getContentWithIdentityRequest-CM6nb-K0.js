@@ -1,0 +1,1 @@
+import{R as d}from"./index-BCBCo45n.js";var t;(e=>{(n=>{(o=>{class s extends d{contentIdentity;constructor(i){super(),this.contentIdentity=i}}o.GetContentWithIdentityRequest=s})(n.ViewModels||(n.ViewModels={}))})(e.ContentManagement||(e.ContentManagement={}))})(t||(t={}));const u=t.ContentManagement.ViewModels.GetContentWithIdentityRequest;export{u as G};
